@@ -46,7 +46,7 @@ class Crowd(Dataset):
         img = Image.open(im_path).convert('RGB')
         keypoints = np.load(gd_path)
         if self.method == 'train':
-            den_path = os.path.join(self.root, 'gt_den', 'GT_{}.h5'.format(name))
+            den_path = os.path.join(self.root, 'gt_den', '{}.h5'.format(name))
             den_map = h5py.File(den_path, 'r')['density_map']
             return self.train_transform(img, den_map)
 
