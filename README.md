@@ -1,6 +1,6 @@
 # CUT
 Segmentation assisted U-shaped multi-scale transformer for crowd counting
-
+![avatar](/model.png)
 # Eniviroment
 timm==0.5.4<br />
 python >=3.6<br />
