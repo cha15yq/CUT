@@ -3,12 +3,19 @@ Segmentation assisted U-shaped multi-scale transformer for crowd counting
 
 # Eniviroment
 timm==0.5.4
-python >=3.6 
+
+python >=3.6
+
 pytorch >=1.4
+
 opencv-python >=4.0
+
 scipy >=1.4.0
+
 h5py >=2.10
+
 pillow >=7.0.0
+
 
 # Models
 
