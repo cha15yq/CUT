@@ -20,7 +20,8 @@ Regards to other datasets, the model needs to be trained using a GPU with at lea
 [QNRF](https://drive.google.com/file/d/19T-YScQ6g7hMYFfvRIfWRblxlBiPvStJ/view?usp=sharing)
 [JHU++](https://drive.google.com/file/d/16m1zM4TNZGUi0_TDWAiqQdQEmJ1pn_Nq/view?usp=sharing)
 
-The pretrained backbone model is provided here: [PcPvT](https://drive.google.com/file/d/1dmqaEGMJz-J8clV62YPS_XplNdUbXiis/view?usp=sharing) [Official](https://drive.google.com/file/d/1wsU9riWBiN22fyfsJCHDFhLyP2c_n8sk/view?usp=sharing)
+The pretrained backbone model is provided here: [PcPvT](https://drive.google.com/file/d/1dmqaEGMJz-J8clV62YPS_XplNdUbXiis/view?usp=sharing) <br />
+You can also download it from [Official](https://drive.google.com/file/d/1wsU9riWBiN22fyfsJCHDFhLyP2c_n8sk/view?usp=sharing)
 
 # Results
 ![avatar](/result.jpg)
