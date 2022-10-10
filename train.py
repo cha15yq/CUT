@@ -19,7 +19,7 @@ def parse_arg():
                         help='the directory for saving models and training logs')
 
     parser.add_argument('--pretrained', default='pretrained/pcpvt_large.pth',
-                        help='the path to the pretrained model')
+                        help='the path to the pretrained pcpvt model')
     parser.add_argument('--drop', type=float, default=0.0, metavar='PCT',
                         help='Dropout rate (default: 0.)')
     parser.add_argument('--drop-path', type=float, default=0.45, metavar='PCT',
