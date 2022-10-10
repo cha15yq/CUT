@@ -13,7 +13,7 @@ def parse_arg():
                         help='the cropped size of the training data')
     parser.add_argument('--downsample-ratio', default=8, type=int,
                         help='the downsample ratio of the model')
-    parser.add_argument('--data-dir', default='new_QNRF',
+    parser.add_argument('--data-dir', default='SHA',
                         help='the directory of the data')
     parser.add_argument('--save-dir', default='history',
                         help='the directory for saving models and training logs')
