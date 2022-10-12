@@ -25,3 +25,23 @@ You can also download it from [Official](https://drive.google.com/file/d/1wsU9ri
 
 # Results
 ![avatar](/result.jpg)
+
+# Acknowledgement
+```
+@InProceedings{Rong_2021_WACV,
+    author    = {Rong, Liangzi and Li, Chunping},
+    title     = {Coarse- and Fine-Grained Attention Network With Background-Aware Loss for Crowd Density Map Estimation},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2021},
+    pages     = {3675-3684}
+}
+```
+```
+@inproceedings{chu2021Twins,
+	title={Twins: Revisiting the Design of Spatial Attention in Vision Transformers},
+	author={Xiangxiang Chu and Zhi Tian and Yuqing Wang and Bo Zhang and Haibing Ren and Xiaolin Wei and Huaxia Xia and Chunhua Shen},
+	booktitle={NeurIPS 2021},
+	year={2021}
+}
+```
