@@ -11,12 +11,12 @@ def parse_arg():
     parser = argparse.ArgumentParser()
     parser.add_argument('--downsample-ratio', default=8, type=int,
                         help='the downsample ratio of the model')
-    parser.add_argument('--data-dir', default='new_QNRF/val',
+    parser.add_argument('--data-dir', default='QNRF/val',
                         help='the directory of the data')
 
     parser.add_argument('--pretrained', default='pretrained/pcpvt_large.pth',
                         help='the path to the pretrained model')
-    parser.add_argument('--model-path', default='history/lr_1e-4_gamma_2_15(1)/best_model.pth',
+    parser.add_argument('--model-path', default='history/lr_1e-4_gamma_2_15/best_model.pth',
                         help='the path to the model')
     parser.add_argument('--drop', type=float, default=0.0, metavar='PCT',
                         help='Dropout rate (default: 0.)')
