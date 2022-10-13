@@ -6,7 +6,7 @@ timm==0.5.4<br />
 python >=3.6<br />
 pytorch >=1.4<br />
 opencv-python<br />
-scipy<br />
+scipy==1.6.2<br />
 h5py <br />
 pillow<br />
 
