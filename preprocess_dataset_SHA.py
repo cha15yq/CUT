@@ -95,7 +95,7 @@ if __name__ == '__main__':
     min_size = 256
     max_size = 1920
 
-    for phase in ['train', 'val']:
+    for phase in ['train', 'test']:
         sub_dir = os.path.join(args.data_dir, phase)
         sub_dir_img = os.path.join(sub_dir, 'images')
         sub_dir_pts = os.path.join(sub_dir, 'gt_points')
