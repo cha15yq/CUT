@@ -14,9 +14,9 @@ tqdm<br />
 
 # Models
 
-The result on SHA is reproducable on Google Colab (GPU needs to be at least T4), apart from the hyper-parameters stated in the paper, you also need to set seed=15 and start-val=120. Don't forget to install timm==0.5.4. The higher version will cause an error.
+SHA can be trained on Google Colab, apart from the hyper-parameters stated in the paper, you also need to set seed=15. We also start-val=120 and train a total of 500 epochs. Don't forget to install timm==0.5.4. The higher version will cause an error.
 
-Regards to other datasets, the model needs to be trained using a GPU with at least 24GB memory. We provide pre-trained models for them here. <br />
+Regards to other datasets, the model needs to be trained using a GPU with at least 24GB memory. More epochs are needed for a model to converge. We provide pre-trained models for them here. <br />
 [SHA](https://drive.google.com/file/d/1OyRo8eqfHTvoxxCPOImaUe3Ll_g5JnWO/view?usp=sharing)
 [QNRF](https://drive.google.com/file/d/19T-YScQ6g7hMYFfvRIfWRblxlBiPvStJ/view?usp=sharing)
 [JHU++](https://drive.google.com/file/d/16m1zM4TNZGUi0_TDWAiqQdQEmJ1pn_Nq/view?usp=sharing)
