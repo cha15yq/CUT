@@ -14,7 +14,7 @@ tqdm<br />
 
 # Models
 
-SHA can be trained on Google Colab, apart from the hyper-parameters stated in the paper. We train a total of 500 epochs and start evalutaion after the 120th epoch. Don't forget to install timm==0.5.4. The higher version will cause an error.
+SHA can be trained on Google Colab, apart from the hyper-parameters stated in the paper. We train a total of 500 epochs and start evalutaion after the 120th epoch. If you want a similiar result, try seed=15. Don't forget to install timm==0.5.4. The higher version will cause an error.
 
 Regards to other datasets, the model needs to be trained using a GPU with at least 24GB memory. More epochs are needed for a model to converge. We provide pre-trained models for them here. <br />
 [SHA](https://drive.google.com/file/d/1OyRo8eqfHTvoxxCPOImaUe3Ll_g5JnWO/view?usp=sharing)
