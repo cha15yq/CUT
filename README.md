@@ -27,7 +27,7 @@ You can also download it from [Official](https://drive.google.com/file/d/1wsU9ri
 # Results
 ![avatar](/result.jpg)
 
-If you find our work useful, please cit:
+If you find our work useful, please cite our paper:
 ```
 @inproceedings{cut,
 title={Segmentation Assisted U-shaped Multi-scale Transformer for Crowd Counting},
