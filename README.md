@@ -29,8 +29,7 @@ You can also download it from [Official](https://drive.google.com/file/d/1wsU9ri
 
 If you find our work useful, please cit:
 ```
-@inproceedings{
-cut,
+@inproceedings{cut,
 title={Segmentation Assisted U-shaped Multi-scale Transformer for Crowd Counting},
 author={Yifei Qian and Liangfei Zhang and Xiaopeng Hong and Carl Donovan and Ognjen Arandjelovic},
 booktitle={2022 British Machine Vision Conference},
