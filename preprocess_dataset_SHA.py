@@ -43,10 +43,10 @@ def cal_new_size(im_h, im_w, min_size, max_size):
             ratio = 1.0 * min_size / im_h
             im_h = min_size
             im_w = round(im_w * ratio)
-        elif im_h > max_size:
-            ratio = 1.0 * max_size / im_h
-            im_h = max_size
-            im_w = round(im_w * ratio)
+        elif im_w > max_size:
+            ratio = 1.0 * max_size / im_w
+            im_w = max_size
+            im_h = round(im_h * ratio)
         else:
             ratio = 1.0
     else:
@@ -54,12 +54,13 @@ def cal_new_size(im_h, im_w, min_size, max_size):
             ratio = 1.0 * min_size / im_w
             im_w = min_size
             im_h = round(im_h * ratio)
-        elif im_w > max_size:
-            ratio = 1.0 * max_size / im_w
-            im_w = max_size
-            im_h = round(im_h * ratio)
+        elif im_h > max_size:
+            ratio = 1.0 * max_size / im_h
+            im_h = max_size
+            im_w = round(im_w * ratio)
         else:
             ratio = 1.0
+
     return im_h, im_w, ratio
 
 
