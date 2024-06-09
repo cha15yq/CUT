@@ -74,7 +74,7 @@ def generate_data(im_path):
     points = points[idx_mask]
     im_h, im_w, rr = cal_new_size(im_h, im_w, min_size, max_size)
     if rr != 1.0:
-        im = im.resize((im_w, im_h), Image.ANTIALIAS)
+        im = im.resize((im_w, im_h), Image.LANCZOS)
         points = points * rr
         print('After resizing:', im_w, im_h)
     return im, points
@@ -127,6 +127,6 @@ if __name__ == '__main__':
                     hf['density_map'] = d
                 print(name, 'GT_num:', len(points), 'Density_sum: {:.2f}'.format(d.sum()))
             im_save_path = os.path.join(sub_dir_img, name)
-            im.save(im_save_path)
+            im.save(im_save_path, quality=100)
             gd_save_path = im_save_path.replace('jpg', 'npy').replace('images', 'gt_points')
             np.save(gd_save_path, points)
